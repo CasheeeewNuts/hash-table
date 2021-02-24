@@ -3,4 +3,4 @@ project(hash_table C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_library(hash_table library.c library.h)
+add_library(hash_table library.c library.h table.c table.h node.c node.h)
